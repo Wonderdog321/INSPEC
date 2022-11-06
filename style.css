@@ -1,0 +1,133 @@
+:root {
+  --nav-color: #ff6404;
+  --search-bar-color: #fcfcfc;
+  --body-color: #3f3f3f;
+  --container-background: #ededed;
+  --container-spacing: 2.7vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-color);
+}
+nav {
+  background-color: var(--nav-color);
+  position: sticky;
+  padding: 0.75em 1.1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Logo {
+  filter: invert(100%) sepia(29%) saturate(1%) hue-rotate(206deg)
+    brightness(110%) contrast(88%);
+}
+
+.search-bar {
+  background-color: var(--search-bar-color);
+  display: flex;
+  border-radius: 0.5em;
+  padding: 0 0.75% 0 0.75%;
+  max-width: 200px;
+}
+.search-text {
+  background-color: var(--search-bar-color);
+  border-radius: 0.5em;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  max-width: 80%;
+}
+.search-button,
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+  margin: 0;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 0 0 0.5em 0.5em;
+  width: calc(100vw - var(--container-spacing));
+  background-color: var(--container-background);
+}
+.blade-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.blade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: calc(100vw - var(--container-spacing));
+  border-bottom: solid 3px #3f3f3f;
+  padding-bottom: 0.5rem;
+}
+.title {
+  display: flex;
+  width: calc(100vw - var(--container-spacing));
+  position: relative;
+}
+.blade-material {
+  flex: auto;
+  text-align: center;
+}
+.blade-material:hover {
+  cursor: pointer;
+}
+.buttons {
+  position: absolute;
+  right: 1rem;
+  top: -0.1rem;
+  transform: scale(35%);
+}
+.search-button {
+  transform: scale(55%);
+}
+.search-button:hover {
+  transform: scale(70%);
+  transform-origin: center;
+  transition: 0.4s ease-in-out;
+}
+.open:hover,
+.print:hover {
+  transform: scale(110%);
+  transform-origin: center;
+  transition: 0.3s ease-in-out;
+}
+
+.print:hover {
+  content: url("img/svg/printer-whole.svg");
+}
+table {
+  border-spacing: 0;
+}
+.specs {
+  border: 3px solid black;
+  text-align: center;
+}
+.specs-body tr,
+.specs-body td {
+  border-spacing: 0;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+.specs-body .Notes {
+  width: 350px;
+  height: 60px;
+  border-right: none;
+}
+.hidden {
+  display: none;
+}
