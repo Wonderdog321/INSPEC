@@ -83,9 +83,6 @@ button {
   flex: auto;
   text-align: center;
 }
-.blade-material:hover {
-  cursor: pointer;
-}
 .buttons {
   position: absolute;
   right: 1rem;
