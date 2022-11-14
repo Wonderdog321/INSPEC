@@ -53,8 +53,8 @@ function printListener() {
         type: "html",
         targetStyles: ["*"],
         header: headerText,
-        headerStyle: "text-align: center",
-        documentTitle: `Specs page for ${headerText} material.`,
+        headerStyle: ["text-align:center"],
+        documentTitle: "",
       });
       printableHTML.removeAttribute("id", "print");
     });
@@ -213,7 +213,7 @@ function htmlMarkup(degree, ma, blade) {
                           <th class="decimal">Decimal</th>
                           <th class="BTG">Back to Gullet(BTG)_____________</th>
                           <th class="wheel">Wheel: ${wheelNumber(
-                            material,
+                            ma,
                             degree
                           )}</th>
                         </tr>
