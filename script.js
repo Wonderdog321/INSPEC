@@ -4,43 +4,36 @@ import wheels from "./wheels.json" assert { type: "json" };
 //-------Global Variables--//
 let searchText, material, degree;
 function openListener() {
-  // Button handling to show the blade material stats
+  // Button handling to show the blade material stats and change to + or -
   document.querySelectorAll("button.open").forEach((item) => {
     item.addEventListener("click", (event) => {
-      event.target.closest("li").children[1].classList.toggle("hidden");
-      if (
-        !event.target.closest("li").children[1].classList.contains("hidden")
-      ) {
-        event.target.src = "img/svg/minus-empty.svg";
-      } else {
-        event.target.src = "img/svg/plus-empty.svg";
-      }
-    });
-  });
-  document.querySelectorAll("button.open").forEach((item) => {
-    item.addEventListener("mouseover", (event) => {
-      if (
-        !event.target.closest("li").children[1].classList.contains("hidden")
-      ) {
+      const li = event.target.closest("li").children[1];
+      li.classList.toggle("hidden");
+      if (!li.classList.contains("hidden")) {
         event.target.src = "img/svg/minus-whole.svg";
       } else {
         event.target.src = "img/svg/plus-whole.svg";
       }
     });
-  });
-  document.querySelectorAll("button.open").forEach((item) => {
-    item.addEventListener("mouseout", (event) => {
-      if (
-        !event.target.closest("li").children[1].classList.contains("hidden")
-      ) {
-        event.target.src = "img/svg/minus-empty.svg";
+    item.addEventListener("mouseover", (event) => {
+      const li = event.target.closest("li").children[1];
+      if (!li.classList.contains("hidden")) {
+        event.target.src = "img/svg/minus-whole.svg";
       } else {
+        event.target.src = "img/svg/plus-whole.svg";
+      }
+    });
+    item.addEventListener("mouseout", (event) => {
+      const li = event.target.closest("li").children[1];
+      if (li.classList.contains("hidden")) {
         event.target.src = "img/svg/plus-empty.svg";
+      } else {
+        event.target.src = "img/svg/minus-empty.svg";
       }
     });
   });
 }
-//Makes the print button print material
+//Makes the print button print material and change img
 function printListener() {
   document.querySelectorAll("button.print").forEach((item) => {
     item.addEventListener("click", (event) => {
@@ -57,6 +50,12 @@ function printListener() {
         documentTitle: "",
       });
       printableHTML.removeAttribute("id", "print");
+    });
+    item.addEventListener("mouseover", (event) => {
+      event.target.src = "img/svg/printer-whole.svg";
+    });
+    item.addEventListener("mouseout", (event) => {
+      event.target.src = "img/svg/printer-empty.svg";
     });
   });
 }
@@ -163,7 +162,6 @@ function makeCells(
 ) {
   let cellsHtml = "";
   for (let i = 1; i <= count; i++) {
-    if (i === 7) classes = "Notes";
     repeat
       ? (cellsHtml += `<${htmltag} class="${classes}"> ${makeCells(
           a,
@@ -183,14 +181,14 @@ function htmlMarkup(degree, ma, blade) {
                     <div class="buttons">
                       <button class="open">
                         <img
-                          class="open"
+                          class="openimg"
                           src="img/svg/plus-empty.svg"
                           alt="Expand specs"
                         />
                       </button>
                       <button class="print">
                         <img
-                          class="print"
+                          class="printimg"
                           src="img/svg/printer-empty.svg"
                           alt="Print"
                         />
@@ -259,7 +257,7 @@ function htmlMarkup(degree, ma, blade) {
                           <td>${returnSpecRange(blade["camber"], 0.002)}</td>
                           <td class="Notes"></td>
                         </tr>
-                        ${makeCells(6, "tr", "specs-body", true, 7, "td")}
+                        ${makeCells(10, "tr", "specs-body", true, 7, "td")}
                       </table>
                     </div>
               </li>`;

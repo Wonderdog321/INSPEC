@@ -47,14 +47,15 @@ nav {
   margin: 0;
   max-width: 80%;
 }
-.search-button,
 button {
   background-color: transparent;
   border: none;
-  cursor: pointer;
   outline: none;
   padding: 5px;
   margin: 0;
+}
+button > img {
+  cursor: pointer;
 }
 .search-container {
   display: flex;
@@ -96,24 +97,32 @@ button {
   top: -0.1rem;
   transform: scale(35%);
 }
-.search-button {
-  transform: scale(55%);
-}
-.search-button:hover {
+.search-button img:hover {
   transform: scale(70%);
   transform-origin: center;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in;
 }
-.open:hover,
-.print:hover {
-  transform: scale(110%);
+.search-button img:not(:hover) {
+  transform: scale(55%);
   transform-origin: center;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-out;
+}
+.print {
+  margin-left: 2rem;
+}
+.printimg:hover,
+.openimg:hover {
+  transform: scale(125%);
+  transform-origin: center;
+  transition: 0.3s ease-in;
+}
+.printimg:not(:hover),
+.openimg:not(:hover) {
+  transform: scale(100%);
+  transform-origin: center;
+  transition: 0.3s ease-out;
 }
 
-.print:hover {
-  content: url("img/svg/printer-whole.svg");
-}
 table {
   border-spacing: 0;
 }
@@ -127,7 +136,7 @@ table {
   border-top: 1px solid black;
   border-right: 1px solid black;
 }
-.specs-body .Notes {
+td:nth-child(7) {
   width: 350px;
   height: 60px;
   border-right: none;
