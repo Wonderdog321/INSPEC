@@ -1,0 +1,1040 @@
+{
+  "14474": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".050",
+      "sets": ".023",
+      "camber": "0.004"
+    }
+  },
+  "15474": {
+    "-12": {
+      "face": "90",
+      "hook": "12",
+      "back": "28",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".023",
+      "camber": "0.004"
+    }
+  },
+  "16474": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".021",
+      "camber": "0.004"
+    }
+  },
+  "175": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".018",
+      "camber": "0.004"
+    }
+  },
+  "17574": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".018",
+      "camber": "0.004"
+    },
+    "-10V": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".170",
+      "sets": ".016",
+      "camber": "0.011"
+    }
+  },
+  "264": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".023",
+      "camber": "0.004"
+    }
+  },
+  "26474": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".023",
+      "camber": "0.008"
+    }
+  },
+  "274": {
+    "-9": {
+      "face": "90",
+      "hook": "9",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".020",
+      "camber": "0.004"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".021",
+      "camber": "0.004"
+    }
+  },
+  "275": {
+    "-9": {
+      "face": "90",
+      "hook": "9",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".021",
+      "camber": "0.004"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".021",
+      "camber": "0.004"
+    },
+    "-10V": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".170",
+      "sets": ".019",
+      "camber": "0.011"
+    }
+  },
+  "27574": {
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".090",
+      "sets": ".021",
+      "camber": "0.008"
+    },
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".021",
+      "camber": "0.004"
+    },
+    "-747": {
+      "face": "90",
+      "hook": "7",
+      "back": "47",
+      "grind": ".015",
+      "bendLocation": ".150",
+      "sets": ".019",
+      "camber": "0.011"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".021",
+      "camber": "0.008"
+    },
+    "-10V": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".170",
+      "sets": ".019",
+      "camber": "0.011"
+    }
+  },
+  "375": {
+    "-4": {
+      "face": "90",
+      "hook": "4",
+      "back": "32",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".023",
+      "camber": "0.004"
+    },
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".090",
+      "sets": ".025",
+      "camber": "0.004"
+    },
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".023",
+      "camber": "0.004"
+    },
+    "-747": {
+      "face": "90",
+      "hook": "7",
+      "back": "47",
+      "grind": ".015",
+      "bendLocation": ".150",
+      "sets": ".023",
+      "camber": "0.011"
+    },
+    "-9": {
+      "face": "90",
+      "hook": "9",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".021",
+      "camber": "0.004"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".025",
+      "camber": "0.004"
+    },
+    "-10V": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".170",
+      "sets": ".023",
+      "camber": "0.011"
+    }
+  },
+  "36674": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".023",
+      "camber": "0.004"
+    }
+  },
+  "376": {
+    "-4": {
+      "face": "90",
+      "hook": "4",
+      "back": "32",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".023",
+      "camber": "0.004"
+    },
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".090",
+      "sets": ".025",
+      "camber": "0.006"
+    },
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".023",
+      "camber": "0.004"
+    },
+    "-747": {
+      "face": "90",
+      "hook": "7",
+      "back": "47",
+      "grind": ".015",
+      "bendLocation": ".150",
+      "sets": ".023",
+      "camber": "0.011"
+    },
+    "-9": {
+      "face": "90",
+      "hook": "9",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".021",
+      "camber": "0.004"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".025",
+      "camber": "0.004"
+    },
+    "-13": {
+      "face": "90",
+      "hook": "13",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".100",
+      "sets": ".025",
+      "camber": "0.004"
+    }
+  },
+  "37674": {
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".090",
+      "sets": ".025",
+      "camber": "0.004"
+    },
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".023",
+      "camber": "0.004"
+    },
+    "-747": {
+      "face": "90",
+      "hook": "7",
+      "back": "47",
+      "grind": ".015",
+      "bendLocation": ".150",
+      "sets": ".023",
+      "camber": "0.011"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".025",
+      "camber": "0.004"
+    },
+    "-10V": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".170",
+      "sets": ".023",
+      "camber": "0.011"
+    },
+    "-13": {
+      "face": "90",
+      "hook": "13",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".100",
+      "sets": ".025",
+      "camber": "0.004"
+    }
+  },
+  "39674": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".025",
+      "camber": "0.008"
+    }
+  },
+  "37774": {
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".090",
+      "sets": ".026",
+      "camber": "0.008"
+    },
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".023",
+      "camber": "0.008"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".026",
+      "camber": "0.008"
+    }
+  },
+  "37874": {
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".090",
+      "sets": ".023",
+      "camber": "0.011"
+    },
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".021",
+      "camber": "0.011"
+    },
+    "-747": {
+      "face": "90",
+      "hook": "7",
+      "back": "47",
+      "grind": ".015",
+      "bendLocation": ".150",
+      "sets": ".023",
+      "camber": "0.011"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".023",
+      "camber": "0.011"
+    }
+  },
+  "38874": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".140",
+      "sets": ".025",
+      "camber": "0.011"
+    }
+  },
+  "310874": {
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".170",
+      "sets": ".023",
+      "camber": "0.011"
+    }
+  },
+  "475": {
+    "-4": {
+      "face": "90",
+      "hook": "4",
+      "back": "32",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".026",
+      "camber": "0.006"
+    },
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".090",
+      "sets": ".028",
+      "camber": "0.008"
+    },
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".025",
+      "camber": "0.006"
+    },
+    "-747": {
+      "face": "90",
+      "hook": "7",
+      "back": "47",
+      "grind": ".015",
+      "bendLocation": ".150",
+      "sets": ".025",
+      "camber": "0.011"
+    },
+    "-9": {
+      "face": "90",
+      "hook": "9",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".025",
+      "camber": "0.006"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".028",
+      "camber": "0.004"
+    }
+  },
+  "476": {
+    "-4": {
+      "face": "90",
+      "hook": "4",
+      "back": "32",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".026",
+      "camber": "0.006"
+    },
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".090",
+      "sets": ".028",
+      "camber": "0.008"
+    },
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".025",
+      "camber": "0.006"
+    },
+    "-747": {
+      "face": "90",
+      "hook": "7",
+      "back": "47",
+      "grind": ".015",
+      "bendLocation": ".150",
+      "sets": ".025",
+      "camber": "0.011"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".028",
+      "camber": "0.004"
+    },
+    "-13": {
+      "face": "90",
+      "hook": "13",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".100",
+      "sets": ".028",
+      "camber": "0.006"
+    }
+  },
+  "47674": {
+    "-4": {
+      "face": "90",
+      "hook": "4",
+      "back": "32",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".026",
+      "camber": "0.006"
+    },
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".090",
+      "sets": ".028",
+      "camber": "0.008"
+    },
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".025",
+      "camber": "0.006"
+    },
+    "-747": {
+      "face": "90",
+      "hook": "7",
+      "back": "47",
+      "grind": ".015",
+      "bendLocation": ".150",
+      "sets": ".025",
+      "camber": "0.011"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".028",
+      "camber": "0.006"
+    },
+    "-10V": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".170",
+      "sets": ".026",
+      "camber": "0.011"
+    },
+    "-13": {
+      "face": "90",
+      "hook": "13",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".100",
+      "sets": ".028",
+      "camber": "0.006"
+    }
+  },
+  "48674": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".140",
+      "sets": ".028",
+      "camber": "0.008"
+    }
+  },
+  "496": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".028",
+      "camber": "0.006"
+    },
+    "-13": {
+      "face": "90",
+      "hook": "13",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".028",
+      "camber": "0.006"
+    }
+  },
+  "47774": {
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".090",
+      "sets": ".028",
+      "camber": "0.008"
+    },
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".025",
+      "camber": "0.008"
+    },
+    "-747": {
+      "face": "90",
+      "hook": "7",
+      "back": "47",
+      "grind": ".015",
+      "bendLocation": ".150",
+      "sets": ".025",
+      "camber": "0.011"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".028",
+      "camber": "0.008"
+    },
+    "-13": {
+      "face": "90",
+      "hook": "13",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".100",
+      "sets": ".028",
+      "camber": "0.008"
+    }
+  },
+  "48774": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".140",
+      "sets": ".028",
+      "camber": "0.008"
+    }
+  },
+  "49774": {
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".028",
+      "camber": "0.008"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".028",
+      "camber": "0.008"
+    },
+    "-13": {
+      "face": "90",
+      "hook": "13",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".028",
+      "camber": "0.008"
+    }
+  },
+  "410774": {
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".170",
+      "sets": ".025",
+      "camber": "0.011"
+    }
+  },
+  "47874": {
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".090",
+      "sets": ".028",
+      "camber": "0.011"
+    },
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".025",
+      "camber": "0.011"
+    },
+    "-747": {
+      "face": "90",
+      "hook": "7",
+      "back": "47",
+      "grind": ".015",
+      "bendLocation": ".150",
+      "sets": ".025",
+      "camber": "0.011"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".028",
+      "camber": "0.011"
+    },
+    "-10V": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".170",
+      "sets": ".026",
+      "camber": "0.011"
+    },
+    "-13": {
+      "face": "90",
+      "hook": "13",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".100",
+      "sets": ".028",
+      "camber": "0.011"
+    }
+  },
+  "478D6": {
+    "-747": {
+      "face": "90",
+      "hook": "7",
+      "back": "47",
+      "grind": ".015",
+      "bendLocation": ".150",
+      "sets": ".025",
+      "camber": "0.011"
+    }
+  },
+  "48874": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".140",
+      "sets": ".028",
+      "camber": "0.008"
+    }
+  },
+  "49874": {
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".028",
+      "camber": "0.011"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".028",
+      "camber": "0.011"
+    },
+    "-13": {
+      "face": "90",
+      "hook": "13",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".028",
+      "camber": "0.011"
+    }
+  },
+  "410874": {
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".170",
+      "sets": ".028",
+      "camber": "0.011"
+    }
+  },
+  "576": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".026",
+      "camber": "0.004"
+    },
+    "-13": {
+      "face": "90",
+      "hook": "13",
+      "back": "29",
+      "grind": ".01",
+      "bendLocation": ".100",
+      "sets": ".028",
+      "camber": "0.004"
+    }
+  },
+  "578D6": {
+    "-747": {
+      "face": "90",
+      "hook": "7",
+      "back": "47",
+      "grind": ".015",
+      "bendLocation": ".150",
+      "sets": ".024",
+      "camber": "0.011"
+    }
+  },
+  "571274": {
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".100",
+      "sets": ".026",
+      "camber": "0.011"
+    },
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".025",
+      "camber": "0.011"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".026",
+      "camber": "0.011"
+    }
+  },
+  "591274": {
+    "-7": {
+      "face": "90",
+      "hook": "7",
+      "back": "34",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".026",
+      "camber": "0.011"
+    },
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".130",
+      "sets": ".026",
+      "camber": "0.011"
+    }
+  },
+  "5101274": {
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".170",
+      "sets": ".026",
+      "camber": "0.011"
+    }
+  },
+  "5101674": {
+    "-739": {
+      "face": "90",
+      "hook": "7",
+      "back": "39.50",
+      "grind": ".01",
+      "bendLocation": ".170",
+      "sets": ".024",
+      "camber": "0.011"
+    }
+  },
+  "64674": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".050",
+      "sets": ".021",
+      "camber": "0.01"
+    }
+  },
+  "656": {
+    "-12": {
+      "face": "90",
+      "hook": "12",
+      "back": "28",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".023",
+      "camber": "0.012"
+    }
+  },
+  "66674": {
+    "-10": {
+      "face": "90",
+      "hook": "10",
+      "back": "30",
+      "grind": ".01",
+      "bendLocation": ".070",
+      "sets": ".023",
+      "camber": "0.004"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "INSPEC",
+  "version": "1.8.2",
+  "description": "An excel sheet converted into an user friendly website for specs.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wonderdog321/INSPEC.git"
+  },
+  "author": "Robert Young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wonderdog321/INSPEC/issues"
+  },
+  "homepage": "https://github.com/Wonderdog321/INSPEC#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mongodb": "^4.12.1",
+    "mongoose": "^7.0.3",
+    "node": "^19.8.1",
+    "nodemon": "^2.0.22"
+  }
+}

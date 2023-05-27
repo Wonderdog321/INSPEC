@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/print-js/1.5.0/print.js"
+      defer
+    ></script>
+    <script type="module" src="script.js" defer></script>
+    <link rel="icon" href="img/png/WMTITLE.png" type="image/icon type" />
+    <title>INSPEC</title>
+  </head>
+  <body>
+    <nav>
+      <h1 class="Logo">INSPEC</h1>
+      <div class="name"></div>
+      <button class="loginbtn">Login</button>
+      <div class="search-bar">
+        <input class="search-text" type="text" placeholder="Blade material" />
+        <button class="search-button">
+          <img src="img/svg/search.svg" alt="Search" />
+        </button>
+      </div>
+    </nav>
+    <form
+      enctype="multipart/form-data"
+      action="/sign-in"
+      class="login-form-container hidden"
+      method="post"
+    >
+      <button class="clsLoginForm" type="button">X</button>
+      <label for="username"><b>Username</b></label>
+      <input
+        type="text"
+        placeholder="Enter Username"
+        name="username"
+        id="username"
+        autocomplete="username"
+      />
+
+      <label for="password"><b>Password</b></label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        name="password"
+        id="password"
+        autocomplete="current-password"
+      />
+
+      <button class="loginbtnmodal" type="submit">Login</button>
+      <label>
+        <input
+          class="remember"
+          type="checkbox"
+          name="remember"
+          id="remember"
+        />Remember me
+      </label>
+    </form>
+    <div class="search-container">
+      <ul class="blade-list"></ul>
+    </div>
+    <div class="blade-edit-container hidden">
+      <div class="blade-edit-content">
+        <div class="blade-modal-top">
+          <h1 class="bladeID">175-10</h1>
+          <button class="btn-close">⨉</button>
+        </div>
+        <form class="formdata">
+          <label id="faceLabel">Face</label>
+          <input id="faceText" type="text" value="90" />
+          <label id="hookLabel">Hook</label>
+          <input id="hookText" type="text" value="10" />
+          <label id="backLabel">Back</label>
+          <input id="backText" type="text" value="30" />
+          <label id="grindLabel">Grind</label>
+          <input id="grindText" type="text" value=".01" />
+          <label id="blLabel">Bend Location's</label>
+          <input id="blText" type="text" value=".050" />
+          <label id="setLabel">Set's</label>
+          <input id="setText" type="text" value=".023" />
+          <label id="camberLabel">Camber</label>
+          <input id="camberText" type="text" value="0.004" />
+          <p class="lastedited"></p>
+          <div class="formbuttons">
+            <input class="submitbtn" type="submit" value="Save" />
+            <input class="deletebtn" type="submit" value="Delete" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="error hidden"></div>
+  </body>
+</html>
