@@ -25,10 +25,7 @@
     "express-validator": "^7.0.1",
     "mongodb": "^4.12.1",
     "mongoose": "^7.0.3",
-    "node": "^18.0.0",
+    "node": "^20.2.0",
     "nodemon": "^2.0.22"
-  },
-  "engines": {
-    "node": "18.x"
   }
 }
