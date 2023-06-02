@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import Blade from "../models/blade.js";
-import data from "../../public/materialdata.json" assert { type: "json" };
 
 export const createBlade = async (req, res) => {
   //Parse the data to send to DB

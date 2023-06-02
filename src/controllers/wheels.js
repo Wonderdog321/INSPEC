@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import Wheel from "../models/wheel.js";
-import data from "../../public/wheels.json" assert { type: "json" };
 
 export const createWheel = async (req, res) => {
   //Parse the data to send to DB
